@@ -9,7 +9,5 @@ module.exports = {
         dialect: 'mysql',
         dialectOptions: {}
     },
-    port: process.env.PORT || 3000,
-    tokenSecret: "asdf",
-    expiry:  "15m"
+    port: process.env.PORT || 3000
 }
