@@ -1,18 +1,9 @@
-# PugJS / Express / Sequelize Boilerplate app
-This is an app ready to drop into AWS Elastic Beanstalk project.
+# Express-sequelize-controller-example
+This is a simple example application demonstrating <a href="https://www.npmjs.com/package/express-sequelize-controller">express-sequelize-controller</a>.
 
-## TODO:
-- Define a controller class to extend from
-- Abstract away the index.js routing to automatically collect the routes from a controller
-- Protect password storage
-- Clean up packages
-- Autocreate first user if not exist
-- Force npm install --production during build
 
-## Install Locally
-- Set up mysql on your machine
-- Modify config.js to your needs
-- Run `npm start` or `nodemon start`
-
-## Build for Production
-- Run build.sh and drop the resulting zip into EB.
+## To run:
+- Modify `config.js` to your needs (database, port, etc)
+- `npm install`
+- `npm start`
+- Navigate to `localhost:3000`
